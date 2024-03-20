@@ -427,15 +427,15 @@ body::-webkit-scrollbar-track {
     border-radius: var(--border-radius-md);
     -webkit-box-shadow: 0 5px 20px hsla(0, 0%, 0%, 0.15);
     box-shadow: 0 5px 20px hsla(0, 0%, 0%, 0.15);
-    -webkit-transform: translate(-webkit-calc(-100% - 40px));
+    -webkit-transform: translate(-webkit-calc(100% - 40px));
     -ms-transform: translateX(calc(-100% - 40px));
     transform: translateX(calc(-100% - 40px));
     -webkit-transition: 0.5s ease-in-out;
     -o-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
     z-index: 5;
-    -webkit-animation: slideOut 10s ease-in-out infinite;
-    animation: slideOut 10s ease-in-out infinite;
+    -webkit-animation: slideInOut 10s ease-in-out infinite;
+    animation: slideInOut 10s ease-in-out infinite;
  }
 
  @-webkit-keyframes slideInOut {
@@ -532,8 +532,9 @@ body::-webkit-scrollbar-track {
 }
 
 
-
-
+/* --------------------- */
+/* Header */
+/* --------------------- */
 
 
 
